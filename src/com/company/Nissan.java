@@ -8,9 +8,15 @@ public class Nissan {
 
     public static void main(String[] args) {
 
-    HelloClass obj = new HelloClass();
-    obj.printHello();
-
+  int a = 10;
+  Employee emp = new Employee();
+  emp.id = 1;
+  emp.name = "manoj";
+  emp.Address = " Toronto";
+        Employee emp2 = new Employee();
+        emp2.id = 3;
+        emp2.name = "MS";
+        emp2.Address = " Madras";
 
     }
 
