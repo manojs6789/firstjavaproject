@@ -8,15 +8,14 @@ public class Nissan {
 
     public static void main(String[] args) {
 
-  int a = 10;
-  Employee emp = new Employee();
-  emp.id = 1;
-  emp.name = "manoj";
-  emp.Address = " Toronto";
-        Employee emp2 = new Employee();
-        emp2.id = 3;
-        emp2.name = "MS";
-        emp2.Address = " Madras";
+Shop shop = new Shop();
+shop.addMoney(10);
+shop.addMoney(30);
+shop.addMoney(45);
+
+        System.out.println(shop.getMoney());
+
+
 
     }
 
